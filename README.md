@@ -14,3 +14,16 @@ add to npm script
 ```
 "test": "mocha ./test/**/*.spec.js"
 ```
+
+
+## 4. BDD Style Assertions
+### 6 Dealing with Nulls
+```
+var N = null;
+should.not.exist(N);
+```
+
+### 7 Working with Promises
+```
+npm install --save chai-as-promised
+```
