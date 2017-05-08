@@ -68,3 +68,20 @@ it('should',function(){
 })
 ```
 
+### 4 Watching Existing Functions
+```
+beforeEach(function(){
+  user={
+    roles:['user'],
+    isAuthorized:function(neededRole){
+    }
+    sinon.spy(user,"isAuthorized");
+    authController.setUser(user);
+  }
+})
+```
+
+## 6. Testing Real Things
+```
+
+```
